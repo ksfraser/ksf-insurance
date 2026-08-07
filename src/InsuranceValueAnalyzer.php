@@ -6,6 +6,11 @@ namespace Ksfraser\Insurance;
 
 use KSFII\AssumptionManagement\AssumptionManager;
 use DateTimeImmutable;
+use Ksfraser\ModulesCommon\ParameterDefinition;
+use Ksfraser\ModulesCommon\ValidationResult;
+use Ksfraser\ModulesCommon\CalculationResult;
+use Ksfraser\ModulesCommon\CalculationEngineInterface;
+use Ksfraser\ModulesCommon\CalculationContext;
 
 /**
  * Insurance Value Analysis Engine

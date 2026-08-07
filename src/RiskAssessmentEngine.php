@@ -3,6 +3,8 @@
 declare(strict_types=1);
 
 namespace Ksfraser\Insurance;
+use Ksfraser\Portfolio\PortfolioAnalyticsEngine;
+use Ksfraser\Portfolio\DiversificationCalculator;
 
 /**
  * Risk Assessment Engine

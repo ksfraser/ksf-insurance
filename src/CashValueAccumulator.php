@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Ksfraser\Insurance;
 
 use KSFII\AssumptionManagement\AssumptionManager;
+use Ksfraser\ModulesCommon\CalculationContext;
 
 /**
  * Cash Value Accumulator

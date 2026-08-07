@@ -11,6 +11,8 @@ use Ksfraser\ModulesCommon\;
 use KSFII\AssumptionManagement\AssumptionManager;
 use PHPUnit\Framework\TestCase;
 use DateTimeImmutable;
+use Ksfraser\Insurance\InsuranceNeedsCalculator;
+use Ksfraser\ModulesCommon\CalculationContext;
 
 /**
  * Test for the InsuranceNeedsCalculator class.

@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 namespace Ksfraser\Insurance;
+use Ksfraser\ModulesCommon\CalculationContext;
 
 /**
  * Premium Projection Calculator
