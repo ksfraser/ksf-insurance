@@ -1,0 +1,23 @@
+{
+    "name": "ksfraser/ksf_insurance",
+    "description": "Insurance needs, valuation, and policy comparison calculation engines (Ksfraser\\Insurance).",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        { "name": "Kevin Fraser", "email": "kevin@ksfraser.ca" }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "ksfraser/ksf_modules_common": "^1.0",
+        "ksfraser/exceptions": "^1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": { "Ksfraser\\Insurance\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Ksfraser\\Insurance\\Tests\\": "tests/" }
+    }
+}
