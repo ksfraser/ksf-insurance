@@ -11,6 +11,7 @@ use Ksfraser\ModulesCommon\ValidationResult;
 use Ksfraser\ModulesCommon\CalculationResult;
 use Ksfraser\ModulesCommon\CalculationEngineInterface;
 use Ksfraser\ModulesCommon\CalculationContext;
+use Ksfraser\ModulesCommon\CalculationException;
 
 /**
  * Insurance Needs Analysis Calculator
